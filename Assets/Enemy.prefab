@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 4143064175679428667}
   - component: {fileID: 4182352794529723176}
   - component: {fileID: 4144600777156382283}
+  - component: {fileID: -4938644907369453612}
+  - component: {fileID: -2477256358453319886}
+  - component: {fileID: -4017234050085228902}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -126,3 +129,53 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4938644907369453612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678109174196345803}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62a1c531a05d134592f7e539bd131a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7852310203972118610, guid: bfb9f11604b70ee478595f68271850d1, type: 3}
+  time: 1
+  delayTime: 1
+--- !u!114 &-2477256358453319886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678109174196345803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32683beb3a00544c82945ac668dbf24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7852310203972118610, guid: bfb9f11604b70ee478595f68271850d1, type: 3}
+  bulletWayNum: 3
+  bulletWaySpace: 100
+  time: 1
+  delayTime: 1
+--- !u!114 &-4017234050085228902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678109174196345803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b008c62b27e680243b6236edf888fa7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7852310203972118610, guid: bfb9f11604b70ee478595f68271850d1, type: 3}
+  bulletWayNum: 3
+  bulletWaySpace: 30
+  bulletWayAxis: 0
+  time: 1
+  delayTime: 1
